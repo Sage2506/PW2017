@@ -1,7 +1,0 @@
-HTML5: ¿que incluye?
--Video
--Audio
--Canvas
--Guardar datos en navegador
--Etiquetas senmanticas
--etc.
