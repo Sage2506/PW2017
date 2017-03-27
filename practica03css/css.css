@@ -1,6 +1,6 @@
 
 body{
-	font-family: 'Roboto:400i', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 header nav ul li{
@@ -17,12 +17,12 @@ header nav ul li{
 	font-weight: bold;
 }
 body ul{
-	list-style: none;
+		list-style: none;
 }
 .stroke{
 	font-size: 1.8em;
 	-webkit-text-fill-color: white;
--webkit-text-stroke: 0.3px #C4C6C3;
+-webkit-text-stroke: 1px #C4C6C3;
 }
 #section1{
 	width: 50%;
@@ -52,6 +52,7 @@ body ul{
 body section{
 		display: inline-block;
 		width: auto;
+		vertical-align: top;
 }
 /*@font-face {
 	font-family: "Roboto";
@@ -67,6 +68,7 @@ section ul li{
 .cuadros{
 	border: 1px solid black;
 	border-radius: 20px;
+	margin-top: 10px;
 }
 #categorias li{
 	display: list-item;
