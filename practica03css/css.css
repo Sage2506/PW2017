@@ -1,7 +1,4 @@
-header nav
-{
 
-}
 body{
 	font-family: 'Roboto:400i', sans-serif;
 }
@@ -13,10 +10,10 @@ header nav ul li{
 }
 .Rounded{
 	background: #FF530D;
-	border-radius: 5px;
+	border-radius: 20px;
 	padding: 2px 0px 2px 0px;
 	margin: 0 auto;
-	width: 99%;
+	width: 100%;
 	font-weight: bold;
 }
 body ul{
@@ -28,15 +25,15 @@ body ul{
 -webkit-text-stroke: 0.3px #C4C6C3;
 }
 #section1{
-	border: 5px solid blue;
 	width: 50%;
 	margin-left: 40px;
 	padding: 10px 30px;
+	margin-top: 0px;
+	padding-top: 0px;
 
 }
 .articulo{
 		border-bottom: 1px solid black;
-		display: inline-block;
 }
 .articulo input{
 	border-radius: 5px;
@@ -49,10 +46,29 @@ body ul{
 	border: 5px solid #C4C6C3;
 	margin-right: 5px;
 }
+#section2{
+		width: 35%;
+}
 body section{
-	display: inline-block;
+		display: inline-block;
+		width: auto;
 }
 /*@font-face {
 	font-family: "Roboto";
 	src: "Roboto/Roboto-Black.ttf"
 }*/
+.centered{
+	color: white;
+	text-align: center;
+}
+section ul li{
+		display: inline-block;
+}
+.cuadros{
+	border: 1px solid black;
+	border-radius: 20px;
+}
+#categorias li{
+	display: list-item;
+	margin-bottom: 4px;
+}
