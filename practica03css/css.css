@@ -1,11 +1,9 @@
 header nav
 {
-	background: #FF530D;
-	border-radius: 5px;
-	padding: 2px 0px 2px 0px;
-	margin: 0 auto;
-	width: 99%;
-	font-weight: bold;
+
+}
+body{
+	font-family: 'Roboto:400i', sans-serif;
 }
 
 header nav ul li{
@@ -13,21 +11,48 @@ header nav ul li{
 	display: inline-block;
 	margin-right: 20px;
 }
+.Rounded{
+	background: #FF530D;
+	border-radius: 5px;
+	padding: 2px 0px 2px 0px;
+	margin: 0 auto;
+	width: 99%;
+	font-weight: bold;
+}
 body ul{
 	list-style: none;
 }
+.stroke{
+	font-size: 1.8em;
+	-webkit-text-fill-color: white;
+-webkit-text-stroke: 0.3px #C4C6C3;
+}
 #section1{
-	border: 5px solid red;
+	border: 5px solid blue;
 	width: 50%;
 	margin-left: 40px;
 	padding: 10px 30px;
 
 }
 .articulo{
-	border-bottom: 1px solid black;
+		border-bottom: 1px solid black;
+		display: inline-block;
+}
+.articulo input{
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	font-size: 0.8em;
+}
+#articulo2 img{
+	border: 5px solid #C4C6C3;
+	margin-right: 5px;
+}
+body section{
 	display: inline-block;
 }
-body section article img
-body section article p{
-width: 30%;
-}
+/*@font-face {
+	font-family: "Roboto";
+	src: "Roboto/Roboto-Black.ttf"
+}*/
